@@ -101,13 +101,13 @@ Move them into your Deep Learning Challenge directory in your local repository.
 Push the added files to GitHub.
 
 # Requirements
-Preprocess the Data (30 points)
-Create a dataframe containing the charity_data.csv data , and identify the target and feature variables in the dataset (2 points)
-Drop the EIN and NAME columns (2 points)
-Determine the number of unique values in each column (2 points)
-For columns with more than 10 unique values, determine the number of data points for each unique value (4 points)
-Create a new value called Other that contains rare categorical variables (5 points)
-Create a feature array, X, and a target array, y by using the preprocessed data (5 points)
+- Preprocess the Data (30 points)
+- Create a dataframe containing the charity_data.csv data , and identify the target and feature variables in the dataset (2 points)
+- Drop the EIN and NAME columns (2 points)
+- Determine the number of unique values in each column (2 points)
+- For columns with more than 10 unique values, determine the number of data points for each unique value (4 points)
+- Create a new value called Other that contains rare categorical variables (5 points)
+- Create a feature array, X, and a target array, y by using the preprocessed data (5 points)
 Split the preprocessed data into training and testing datasets (5 points)
 Scale the data by using a StandardScaler that has been fitted to the training data (5 points)
 Compile, Train and Evaluate the Model (20 points)
