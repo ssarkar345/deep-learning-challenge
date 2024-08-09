@@ -121,7 +121,7 @@ Push the added files to GitHub.
 - Repeat the preprocessing steps in a new Jupyter notebook (4 points)
 - Create a new neural network model, implementing at least 3 model optimization methods (15 points)
 - Save and export your results to an HDF5 file named AlphabetSoupCharity_Optimization.h5 (1 point)
-- Write a Report on the Neural Network Model (30 points)
+## Write a Report on the Neural Network Model (30 points)
 - Write an analysis that includes a title and multiple sections, labeled with headers and subheaders (4 points)
 - Format images in the report so that they display correction (2)
 - Explain the purpose of the analysis (4)
