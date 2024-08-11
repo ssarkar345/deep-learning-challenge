@@ -1,0 +1,51 @@
+Soumik Sarkar
+Deep Learning Challenge Report
+
+Purpose: The goal of this analysis is to develop a machine learning model to predict the 
+success of Alphabet Soup-funded organizations. By identifying key factors influencing 
+success, Alphabet Soup can allocate resources more effectively.
+
+Data Preprocessing
+*	Target variable: IS_SUCCESSFUL (whether the organization was successful or not)
+*	Features: All columns except EIN, NAME, and IS_SUCCESSFUL (e.g., 
+APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, etc.)
+*	Removed variables: EIN and NAME as they are identifiers and not predictive 
+features.
+Compiling, Training, and Evaluating the Model
+First Model (100 epochs)
+*	Model architecture:
+o	Number of layers: 3 (1 hidden layer + output layer)
+o	Number of neurons per layer: 10 in the hidden layer, 1 in the output layer.
+o	Activation functions: ReLU for the hidden layer, sigmoid for the output layer.
+o	Optimizer: Adam
+o	Loss function: Binary crossentropy
+o	Epochs: 100
+*	Model performance:
+o	Training accuracy: 73.12%
+Second Model (90 epochs)
+*	Model architecture: Similar to the first model but with 20 neurons in each hidden 
+layer.
+*	Model performance:
+o	Training accuracy: 73.04%
+Third Model (100 epochs)
+*	Model architecture: Similar to the first model but with 30 neurons in each hidden 
+layer.
+*	Model performance:
+o	Training accuracy: 73.52%
+Summary
+A neural network model was developed to predict the success of Alphabet Soup-
+funded organizations. The model utilized features such as application type, affiliation, 
+classification, and others to make predictions.
+The initial model achieved an accuracy of 73.12% on both the training and validation 
+sets. This suggests that the model is performing reasonably well but has room for 
+improvement.
+The second model achieved an accuracy of 73.04%. This suggests again room for 
+improvement and the model architecture was a step away from the desired results.
+The third model achieved the best results with an accuracy of 73.52%.
+Overall, while the initial results are promising, further optimization is necessary to 
+reach the target accuracy of 75%. Alternative modeling techniques, such as Random 
+Forest or Gradient Boosting, might be explored for better performance.
+
+
+
+
